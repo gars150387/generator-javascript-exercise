@@ -18,5 +18,9 @@ return who[whoIndex] +' '+ action[actionIndex]+' '+ what[whatIndex]+' '+ when[wh
 let randomExcuse = randomText()
 console.log(randomExcuse)
 
-// function myFunction() {
-//   document.getElementById("demo").innerHTML = randomText;
+function myClick(){
+    document.getElementById('randomText').innerHTML = randomExcuse;
+}
+// setTimeout(function(){
+//     location.reload;
+// });
