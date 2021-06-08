@@ -13,7 +13,7 @@ let whenIndex =Math.floor((Math.random())* when.length);
 // console.log(what[whatIndex])
 // console.log(when[whenIndex])
 return who[whoIndex] +' '+ action[actionIndex]+' '+ what[whatIndex]+' '+ when[whenIndex];
-
+setTimeout
 }
 let randomExcuse = randomText()
 console.log(randomExcuse)
@@ -21,6 +21,6 @@ console.log(randomExcuse)
 function myClick(){
     document.getElementById('randomText').innerHTML = randomExcuse;
 }
-// setTimeout(function(){
+// setTimeout(randomText(),5000{
 //     location.reload;
 // });
